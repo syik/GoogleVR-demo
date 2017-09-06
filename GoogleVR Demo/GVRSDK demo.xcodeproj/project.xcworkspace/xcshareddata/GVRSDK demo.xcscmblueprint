@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5B16ED8E1AC9047A0D5317292DCEFBD1AE5234A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5B16ED8E1AC9047A0D5317292DCEFBD1AE5234A" : 9223372036854775807,
+    "13CE92B5E08F44086006F31985711F2887955B7C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1EE614A2-D8CC-41BB-A1D1-E3344C4E6A44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5B16ED8E1AC9047A0D5317292DCEFBD1AE5234A" : "GVRSDK%20demo\/",
+    "13CE92B5E08F44086006F31985711F2887955B7C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GVRSDK demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GVRSDK demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/syik\/GVRSDK-demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13CE92B5E08F44086006F31985711F2887955B7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/syik\/Google-VR-SDK-demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5B16ED8E1AC9047A0D5317292DCEFBD1AE5234A"
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C106CE0D9EDA633D3A7FF0E /* libPods-GVRSDK demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E3F88B4519E33BF8BFE3CC /* libPods-GVRSDK demo.a */; };
+		F26FEA821EDE9E5800FA6DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FEA811EDE9E5800FA6DA4 /* main.m */; };
+		F26FEA851EDE9E5800FA6DA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FEA841EDE9E5800FA6DA4 /* AppDelegate.m */; };
+		F26FEA881EDE9E5800FA6DA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FEA871EDE9E5800FA6DA4 /* ViewController.m */; };
+		F26FEA8D1EDE9E5800FA6DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26FEA8C1EDE9E5800FA6DA4 /* Assets.xcassets */; };
+		F26FEA9B1EDE9E5800FA6DA4 /* GVRSDK_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FEA9A1EDE9E5800FA6DA4 /* GVRSDK_demoTests.m */; };
+		F26FEAA61EDE9E5800FA6DA4 /* GVRSDK_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FEAA51EDE9E5800FA6DA4 /* GVRSDK_demoUITests.m */; };
+		F2873C491F3A92F000C8DCD7 /* vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2873C481F3A929700C8DCD7 /* vr.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26FEA971EDE9E5800FA6DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26FEA751EDE9E5700FA6DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26FEA7C1EDE9E5700FA6DA4;
+			remoteInfo = "GVRSDK demo";
+		};
+		F26FEAA21EDE9E5800FA6DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26FEA751EDE9E5700FA6DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26FEA7C1EDE9E5700FA6DA4;
+			remoteInfo = "GVRSDK demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45E3F88B4519E33BF8BFE3CC /* libPods-GVRSDK demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVRSDK demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C04760061A2BEDD35E3E382 /* Pods-GVRSDK demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRSDK demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVRSDK demo/Pods-GVRSDK demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E253398A7F6D6EF038074DC1 /* Pods-GVRSDK demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRSDK demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVRSDK demo/Pods-GVRSDK demo.release.xcconfig"; sourceTree = "<group>"; };
+		F26FEA7D1EDE9E5700FA6DA4 /* GVRSDK demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GVRSDK demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FEA811EDE9E5800FA6DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26FEA831EDE9E5800FA6DA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26FEA841EDE9E5800FA6DA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26FEA861EDE9E5800FA6DA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26FEA871EDE9E5800FA6DA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26FEA8C1EDE9E5800FA6DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26FEA911EDE9E5800FA6DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26FEA961EDE9E5800FA6DA4 /* GVRSDK demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GVRSDK demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FEA9A1EDE9E5800FA6DA4 /* GVRSDK_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVRSDK_demoTests.m; sourceTree = "<group>"; };
+		F26FEA9C1EDE9E5800FA6DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26FEAA11EDE9E5800FA6DA4 /* GVRSDK demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GVRSDK demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FEAA51EDE9E5800FA6DA4 /* GVRSDK_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVRSDK_demoUITests.m; sourceTree = "<group>"; };
+		F26FEAA71EDE9E5800FA6DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2873C481F3A929700C8DCD7 /* vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vr.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26FEA7A1EDE9E5700FA6DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C106CE0D9EDA633D3A7FF0E /* libPods-GVRSDK demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FEA931EDE9E5800FA6DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FEA9E1EDE9E5800FA6DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64861AE4B0E0E92BF5003E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E3F88B4519E33BF8BFE3CC /* libPods-GVRSDK demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE6DC30B3E7DF30886947AD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C04760061A2BEDD35E3E382 /* Pods-GVRSDK demo.debug.xcconfig */,
+				E253398A7F6D6EF038074DC1 /* Pods-GVRSDK demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F26FEA741EDE9E5700FA6DA4 = {
+			isa = PBXGroup;
+			children = (
+				F26FEA7F1EDE9E5700FA6DA4 /* GVRSDK demo */,
+				F26FEA991EDE9E5800FA6DA4 /* GVRSDK demoTests */,
+				F26FEAA41EDE9E5800FA6DA4 /* GVRSDK demoUITests */,
+				F26FEA7E1EDE9E5700FA6DA4 /* Products */,
+				BE6DC30B3E7DF30886947AD2 /* Pods */,
+				64861AE4B0E0E92BF5003E75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F26FEA7E1EDE9E5700FA6DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26FEA7D1EDE9E5700FA6DA4 /* GVRSDK demo.app */,
+				F26FEA961EDE9E5800FA6DA4 /* GVRSDK demoTests.xctest */,
+				F26FEAA11EDE9E5800FA6DA4 /* GVRSDK demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26FEA7F1EDE9E5700FA6DA4 /* GVRSDK demo */ = {
+			isa = PBXGroup;
+			children = (
+				F2873C481F3A929700C8DCD7 /* vr.mp4 */,
+				F26FEA831EDE9E5800FA6DA4 /* AppDelegate.h */,
+				F26FEA841EDE9E5800FA6DA4 /* AppDelegate.m */,
+				F26FEA861EDE9E5800FA6DA4 /* ViewController.h */,
+				F26FEA871EDE9E5800FA6DA4 /* ViewController.m */,
+				F26FEA8C1EDE9E5800FA6DA4 /* Assets.xcassets */,
+				F26FEA911EDE9E5800FA6DA4 /* Info.plist */,
+				F26FEA801EDE9E5800FA6DA4 /* Supporting Files */,
+			);
+			path = "GVRSDK demo";
+			sourceTree = "<group>";
+		};
+		F26FEA801EDE9E5800FA6DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26FEA811EDE9E5800FA6DA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26FEA991EDE9E5800FA6DA4 /* GVRSDK demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26FEA9A1EDE9E5800FA6DA4 /* GVRSDK_demoTests.m */,
+				F26FEA9C1EDE9E5800FA6DA4 /* Info.plist */,
+			);
+			path = "GVRSDK demoTests";
+			sourceTree = "<group>";
+		};
+		F26FEAA41EDE9E5800FA6DA4 /* GVRSDK demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F26FEAA51EDE9E5800FA6DA4 /* GVRSDK_demoUITests.m */,
+				F26FEAA71EDE9E5800FA6DA4 /* Info.plist */,
+			);
+			path = "GVRSDK demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26FEA7C1EDE9E5700FA6DA4 /* GVRSDK demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FEAAA1EDE9E5800FA6DA4 /* Build configuration list for PBXNativeTarget "GVRSDK demo" */;
+			buildPhases = (
+				815678D21C3B954E3CED2380 /* [CP] Check Pods Manifest.lock */,
+				F26FEA791EDE9E5700FA6DA4 /* Sources */,
+				F26FEA7A1EDE9E5700FA6DA4 /* Frameworks */,
+				F26FEA7B1EDE9E5700FA6DA4 /* Resources */,
+				4A8D6D3CA619F212EACD6225 /* [CP] Embed Pods Frameworks */,
+				1895DEC0665494F9675030B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GVRSDK demo";
+			productName = "GVRSDK demo";
+			productReference = F26FEA7D1EDE9E5700FA6DA4 /* GVRSDK demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26FEA951EDE9E5800FA6DA4 /* GVRSDK demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FEAAD1EDE9E5800FA6DA4 /* Build configuration list for PBXNativeTarget "GVRSDK demoTests" */;
+			buildPhases = (
+				F26FEA921EDE9E5800FA6DA4 /* Sources */,
+				F26FEA931EDE9E5800FA6DA4 /* Frameworks */,
+				F26FEA941EDE9E5800FA6DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26FEA981EDE9E5800FA6DA4 /* PBXTargetDependency */,
+			);
+			name = "GVRSDK demoTests";
+			productName = "GVRSDK demoTests";
+			productReference = F26FEA961EDE9E5800FA6DA4 /* GVRSDK demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F26FEAA01EDE9E5800FA6DA4 /* GVRSDK demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FEAB01EDE9E5800FA6DA4 /* Build configuration list for PBXNativeTarget "GVRSDK demoUITests" */;
+			buildPhases = (
+				F26FEA9D1EDE9E5800FA6DA4 /* Sources */,
+				F26FEA9E1EDE9E5800FA6DA4 /* Frameworks */,
+				F26FEA9F1EDE9E5800FA6DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26FEAA31EDE9E5800FA6DA4 /* PBXTargetDependency */,
+			);
+			name = "GVRSDK demoUITests";
+			productName = "GVRSDK demoUITests";
+			productReference = F26FEAA11EDE9E5800FA6DA4 /* GVRSDK demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26FEA751EDE9E5700FA6DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "末班车";
+				TargetAttributes = {
+					F26FEA7C1EDE9E5700FA6DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 724LG2HP95;
+						ProvisioningStyle = Automatic;
+					};
+					F26FEA951EDE9E5800FA6DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F26FEA7C1EDE9E5700FA6DA4;
+					};
+					F26FEAA01EDE9E5800FA6DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F26FEA7C1EDE9E5700FA6DA4;
+					};
+				};
+			};
+			buildConfigurationList = F26FEA781EDE9E5700FA6DA4 /* Build configuration list for PBXProject "GVRSDK demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26FEA741EDE9E5700FA6DA4;
+			productRefGroup = F26FEA7E1EDE9E5700FA6DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26FEA7C1EDE9E5700FA6DA4 /* GVRSDK demo */,
+				F26FEA951EDE9E5800FA6DA4 /* GVRSDK demoTests */,
+				F26FEAA01EDE9E5800FA6DA4 /* GVRSDK demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26FEA7B1EDE9E5700FA6DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2873C491F3A92F000C8DCD7 /* vr.mp4 in Resources */,
+				F26FEA8D1EDE9E5800FA6DA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FEA941EDE9E5800FA6DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FEA9F1EDE9E5800FA6DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1895DEC0665494F9675030B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRSDK demo/Pods-GVRSDK demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A8D6D3CA619F212EACD6225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRSDK demo/Pods-GVRSDK demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815678D21C3B954E3CED2380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26FEA791EDE9E5700FA6DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FEA881EDE9E5800FA6DA4 /* ViewController.m in Sources */,
+				F26FEA851EDE9E5800FA6DA4 /* AppDelegate.m in Sources */,
+				F26FEA821EDE9E5800FA6DA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FEA921EDE9E5800FA6DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FEA9B1EDE9E5800FA6DA4 /* GVRSDK_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FEA9D1EDE9E5800FA6DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FEAA61EDE9E5800FA6DA4 /* GVRSDK_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26FEA981EDE9E5800FA6DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26FEA7C1EDE9E5700FA6DA4 /* GVRSDK demo */;
+			targetProxy = F26FEA971EDE9E5800FA6DA4 /* PBXContainerItemProxy */;
+		};
+		F26FEAA31EDE9E5800FA6DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26FEA7C1EDE9E5700FA6DA4 /* GVRSDK demo */;
+			targetProxy = F26FEAA21EDE9E5800FA6DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F26FEAA81EDE9E5800FA6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F26FEAA91EDE9E5800FA6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26FEAAB1EDE9E5800FA6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C04760061A2BEDD35E3E382 /* Pods-GVRSDK demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 724LG2HP95;
+				INFOPLIST_FILE = "GVRSDK demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ.GVRSDK-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F26FEAAC1EDE9E5800FA6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E253398A7F6D6EF038074DC1 /* Pods-GVRSDK demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 724LG2HP95;
+				INFOPLIST_FILE = "GVRSDK demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ.GVRSDK-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F26FEAAE1EDE9E5800FA6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GVRSDK demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ.GVRSDK-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVRSDK demo.app/GVRSDK demo";
+			};
+			name = Debug;
+		};
+		F26FEAAF1EDE9E5800FA6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GVRSDK demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ.GVRSDK-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVRSDK demo.app/GVRSDK demo";
+			};
+			name = Release;
+		};
+		F26FEAB11EDE9E5800FA6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GVRSDK demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ.GVRSDK-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GVRSDK demo";
+			};
+			name = Debug;
+		};
+		F26FEAB21EDE9E5800FA6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GVRSDK demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ.GVRSDK-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GVRSDK demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26FEA781EDE9E5700FA6DA4 /* Build configuration list for PBXProject "GVRSDK demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FEAA81EDE9E5800FA6DA4 /* Debug */,
+				F26FEAA91EDE9E5800FA6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FEAAA1EDE9E5800FA6DA4 /* Build configuration list for PBXNativeTarget "GVRSDK demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FEAAB1EDE9E5800FA6DA4 /* Debug */,
+				F26FEAAC1EDE9E5800FA6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FEAAD1EDE9E5800FA6DA4 /* Build configuration list for PBXNativeTarget "GVRSDK demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FEAAE1EDE9E5800FA6DA4 /* Debug */,
+				F26FEAAF1EDE9E5800FA6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FEAB01EDE9E5800FA6DA4 /* Build configuration list for PBXNativeTarget "GVRSDK demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FEAB11EDE9E5800FA6DA4 /* Debug */,
+				F26FEAB21EDE9E5800FA6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26FEA751EDE9E5700FA6DA4 /* Project object */;
+}
